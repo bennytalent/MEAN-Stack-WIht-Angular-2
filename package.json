@@ -1,0 +1,30 @@
+{
+  "name": "mean-stack-with-angular-2",
+  "version": "1.0.0",
+  "description": "MEAN Stack with Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennytalent/MEAN-Stack-WIht-Angular-2.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Angular",
+    "2",
+    "Applikation"
+  ],
+  "author": "BK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennytalent/MEAN-Stack-WIht-Angular-2/issues"
+  },
+  "homepage": "https://github.com/bennytalent/MEAN-Stack-WIht-Angular-2#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
