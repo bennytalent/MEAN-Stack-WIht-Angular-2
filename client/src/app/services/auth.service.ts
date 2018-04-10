@@ -6,7 +6,7 @@ import { tokenNotExpired } from 'angular2-jwt'
 @Injectable()
 export class AuthService {
 
-  domain = "http://localhost:8080";
+  domain = "http://localhost:8080/";
   authToken;
   user;
   headers;
@@ -30,21 +30,21 @@ export class AuthService {
   }
 
   registerUser(user) {
-    return this.http.post(this.domain + '/authentication/register', user).map(res => res);
+    return this.http.post(this.domain + 'authentication/register', user).map(res => res);
   }
 
   // Function to check if username is taken
   checkUsername(username) {
-    return this.http.get(this.domain + '/authentication/checkUsername/' + username).map(res => res);
+    return this.http.get(this.domain + 'authentication/checkUsername/' + username).map(res => res);
   }
 
   // Function to check if e-mail is taken
   checkEmail(email) {
-    return this.http.get(this.domain + '/authentication/checkEmail/' + email).map(res => res);
+    return this.http.get(this.domain + 'authentication/checkEmail/' + email).map(res => res);
   }
 
   login(user) {
-    return this.http.post(this.domain + '/authentication/login', user).map(res => res);
+    return this.http.post(this.domain + 'authentication/login', user).map(res => res);
   }
 
   logout() {
@@ -62,7 +62,7 @@ export class AuthService {
 
   getProfile() {
     this.createAuthenticationHeaders();
-    return this.http.get(this.domain + '/authentication/profile', {headers: this.headers}).map(res => res);
+    return this.http.get(this.domain + 'authentication/profile', {headers: this.headers}).map(res => res);
   }
 
   loggedIn(){
