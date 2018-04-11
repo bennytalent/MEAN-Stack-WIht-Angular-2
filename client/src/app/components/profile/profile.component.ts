@@ -18,7 +18,6 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
     this.authService.getProfile().subscribe(profile => {
       var json = JSON.parse(JSON.stringify(profile));
-      console.log(JSON.stringify(json));
       this.username = json.user.username;
       this.email = json.user.email;
     });
