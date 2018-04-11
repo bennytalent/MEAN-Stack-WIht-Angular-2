@@ -28,9 +28,9 @@ app.use(express.static(__dirname + '/client/dist/'));
 app.use('/authentication', authentication);
 app.use('/blogs', blogs);
 
-app.get('*', (req, res) => {
+/*app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/dist/index.html'));
-});
+});*/
 
 app.listen(8080, () =>{
     console.log('Listening on port 8080');

@@ -51,32 +51,32 @@
 
 
 <div *ngIf="!newPost">
-  <div class="panel panel-primary">
+  <div class="panel panel-primary" *ngFor="let blog of blogPosts">
     <div class="panel-heading"></div>
-      <h3 class="panel-title">Post Title</h3>
+      <h3 class="panel-title">{{ blog.title }}</h3>
 
       <div class="panel-body">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        {{ blog.body }}
       </div>
 
     <!--Start Footer-->
     <div class="panel-footer">
-      <strong>Posted by: </strong>BK
+      <strong>Posted by: </strong>{{ blog.createdBy }}
       <br/>
-      <strong>Date: </strong>June 20, 2017
+      <strong>Date: </strong>{{ blog.createdAt | date:'MMM dd. HH:mm, yyyy' }}
       <br/>
-      <div>
-        <strong>Likes: </strong>25
+      <div *ngIf="username === blog.createdBy">
+        <strong>Likes: </strong>{{ blog.likes }}
         <br/>
-        <strong>Dislikes: </strong>25
+        <strong>Dislikes: </strong>{{ blog.dislikes }}
       </div>
 
-      <a href="#"><button type="button" name="button" class="btn btn-sm btn-info">Edit</button></a>
-      <a href="#"><button type="button" name="button" class="btn btn-sm btn-danger">Delete</button></a>
+      <a [routerLink]="['/edit-blog/', blog._id]" *ngIf="username === blog.createdBy"><button type="button" name="button" class="btn btn-sm btn-info">Edit</button></a>
+      <a [routerLink]="['/delete-blog/', blog._id]" *ngIf="username === blog.createdBy"><button type="button" name="button" class="btn btn-sm btn-danger">Delete</button></a>
 
       <!-- Likes Dropdown -->
       <div class="dropdown">
-        <button type="button" name="button" class="btn btn-sm btn-success">
+        <button type="button" name="button" class="btn btn-sm btn-success" *ngIf="username !== blog.createdBy">
           <span>"Like"</span> 21
         </button>
 
@@ -89,7 +89,7 @@
 
       <!-- Dislikes Dropdown -->
       <div class="dropdown">
-        <button type="button" name="button" class="btn btn-sm btn-warning">
+        <button type="button" name="button" class="btn btn-sm btn-warning" *ngIf="username !== blog.createdBy">
           <span>"Dislike"</span> 21
         </button>
 
