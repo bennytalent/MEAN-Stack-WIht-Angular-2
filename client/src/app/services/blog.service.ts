@@ -42,4 +42,9 @@ export class BlogService {
     return this.http.put(this.domain + 'blogs/updateBlog/', blog, {headers: this.headers}).map(res => res);
   }
 
+  deleteBlog(id){
+    this.createAuthenticationHeaders();
+    return this.http.delete(this.domain + 'blogs/deleteBlog/' + id, {headers: this.headers}).map(res => res);
+  }
+
 }
