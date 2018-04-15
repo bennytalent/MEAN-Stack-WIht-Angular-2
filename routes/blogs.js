@@ -298,5 +298,47 @@ module.exports = (router) => {
         }
     });
 
+    router.post('/comment', (req, res) => {
+       if(!req.body.comment) {
+           res.json({ success: false, message: 'No comment provided' }); // Return error message
+       } else {
+           if(!req.body.id) {
+               res.json({ success: false, message: 'No id was provided' }); // Return error message
+           } else {
+               Blog.findOne({ _id: req.body.id }, (err, blog) => {
+                   if(err) {
+                       res.json({ success: false, message: 'Invalid blog id' }); // Return error message
+                   } else {
+                       if(!blog) {
+                           res.json({ success: false, message: 'Blog not found' }); // Return error message
+                       } else {
+                           User.findOne({ _id: req.decoded.userId }, (err, user) => {
+                               if(err) {
+                                   res.json({ success: false, message: 'Something went wrong' }); // Return error message
+                               } else {
+                                   if(!user) {
+                                       res.json({ success: false, message: 'User not found' }); // Return error message
+                                   } else {
+                                       blog.comments.push({
+                                           comment: req.body.comment,
+                                           commentator: user.username
+                                       });
+                                       blog.save((err) => {
+                                          if(err) {
+                                              res.json({ success: false, message: 'Something went wrong' }); // Return error message
+                                          } else {
+                                              res.json({ success: true, message: 'Comment saved!' }); // Return error message
+                                          }
+                                       });
+                                   }
+                               }
+                           })
+                       }
+                   }
+               });
+           }
+       }
+    });
+
     return router;
 };

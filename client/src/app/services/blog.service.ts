@@ -59,4 +59,13 @@ export class BlogService {
     return this.http.put(this.domain + 'blogs/dislikeBlog/', blogData, {headers: this.headers}).map(res => res);
   }
 
+  postComment(id, comment) {
+    this.createAuthenticationHeaders();
+    const blogData = {
+      id: id,
+      comment: comment
+    };
+    return this.http.post(this.domain + 'blogs/comment', blogData, {headers: this.headers}).map(res => res);
+  }
+
 }
