@@ -2,11 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b783f25-7559-4905-88c5-6ed85c587ea1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/build-optimizer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/build-optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/cli.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/rollup-plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/rollup-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/helpers/ast-utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/helpers/ast-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/helpers/transform-javascript.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/helpers/transform-javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/purify/cli.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/purify/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/purify/purify.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/purify/purify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/purify/webpack-plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/purify/webpack-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/class-fold.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/class-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/import-tslib.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/import-tslib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/prefix-classes.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/prefix-classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/prefix-functions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/prefix-functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/scrub-file.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/scrub-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/wrap-enums.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/src/transforms/wrap-enums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/webpack-loader/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/cli-logger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/cli-logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/fs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/host.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/resolve.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node/resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/.tonic_example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/dist/ajv.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/dist/ajv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/dist/ajv.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/dist/nodent.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/dist/regenerator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/$data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/ajv.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/ajv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/_rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/equal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/error_classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/schema_obj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/ucs2length.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/compile/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/_limit.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/_limitItems.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/_limitLength.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/_limitProperties.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/allOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/anyOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/coerce.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/const.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/contains.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/custom.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/defaults.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/definitions.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/dependencies.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/enum.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/errors.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/format.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/items.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/missing.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/multipleOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/not.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/oneOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/pattern.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/properties.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/propertyNames.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/ref.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/required.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/uniqueItems.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dot/validate.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/_limit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/_limitItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/_limitLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/_limitProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/allOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/anyOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/contains.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/ajv/lib/dotjs/enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/3rdpartylicenses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inline.318b50c57b4eba3d437b.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main.c7db6e1ab76ecbf70c25.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/polyfills.95f523ba519ac2af484d.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles.0744b9f6769c326ccd7f.bundle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/blog/blog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/blog/blog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/blog/blog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/blog/blog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/services/blog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/services/blog.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.angular-cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.angular-cli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,50 +141,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/blogs.js">
+      <file leaf-file-name="database.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="317" column="39" lean-forward="true" selection-start-line="317" selection-start-column="39" selection-end-line="317" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/services/blog.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/components/blog/blog.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/app/components/blog/blog.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="121" column="168" selection-start-line="121" selection-start-column="168" selection-end-line="121" selection-end-column="168" />
-              <folding>
-                <element signature="e#6502#6508#0" expanded="true" />
-                <element signature="e#6508#6514#0" expanded="true" />
-                <element signature="e#6788#6794#0" expanded="true" />
-                <element signature="e#6794#6800#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -98,23 +180,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/client/dist/index.html" />
         <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/client/src/index.html" />
         <option value="$PROJECT_DIR$/client/src/app/components/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/config/database.js" />
         <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/routes/authentification.js" />
         <option value="$PROJECT_DIR$/client/src/app/components/register/register.component.html" />
-        <option value="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/components/login/login.component.html" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/client/src/app/components/home/home.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/client/src/app/components/blog/delete-blog/delete-blog.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/components/blog/delete-blog/delete-blog.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app-routing-module.ts" />
@@ -126,6 +203,14 @@
         <option value="$PROJECT_DIR$/client/src/app/services/blog.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/components/blog/blog.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/components/blog/blog.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/config/database.js" />
       </list>
     </option>
   </component>
@@ -168,59 +253,12 @@
             <path>
               <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="public-profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN-Stack-With-Angular-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-Stack-With-Angular-2" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,7 +306,7 @@
       <workItem from="1522697325065" duration="7195000" />
       <workItem from="1522781009790" duration="29250000" />
       <workItem from="1523107103899" duration="17536000" />
-      <workItem from="1523708417169" duration="18225000" />
+      <workItem from="1523708417169" duration="24151000" />
     </task>
     <task id="LOCAL-00001" summary="added navigation and home-view">
       <created>1522790053304</created>
@@ -312,17 +350,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523795156178</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented comment blog logic">
+      <created>1523803361375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523803361375</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73431000" />
+    <option name="totallyTimeSpent" value="79357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32900432" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17334037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21390937" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -330,7 +375,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32900432" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,43 +399,10 @@
     <MESSAGE value="implemented registration logic (frontend)" />
     <MESSAGE value="implemented delete blog logic" />
     <MESSAGE value="implemented (dis)like blog logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented (dis)like blog logic" />
+    <MESSAGE value="implemented comment blog logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented comment blog logic" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/app/services/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/app-routing-module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -446,21 +458,6 @@
         <state relative-caret-position="-1632" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/client/dist/main.bundle.js" />
     <entry file="file://$PROJECT_DIR$/client/node_modules/@angular/http/src/http_module.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/node_modules/ts-node/dist/_bin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -546,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/register/register.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="141" column="14" lean-forward="true" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/components/register/register.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -560,34 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/components/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,13 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -710,6 +662,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/blog/blog.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="115" column="37" lean-forward="true" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+          <folding>
+            <element signature="e#6502#6508#0" expanded="true" />
+            <element signature="e#6508#6514#0" expanded="true" />
+            <element signature="e#6788#6794#0" expanded="true" />
+            <element signature="e#6794#6800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/components/blog/blog.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -720,16 +685,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/blog/blog.component.html">
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="121" column="168" selection-start-line="121" selection-start-column="168" selection-end-line="121" selection-end-column="168" />
+        <state relative-caret-position="354">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
-            <element signature="e#6502#6508#0" expanded="true" />
-            <element signature="e#6508#6514#0" expanded="true" />
-            <element signature="e#6788#6794#0" expanded="true" />
-            <element signature="e#6794#6800#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/register/register.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/styles.0744b9f6769c326ccd7f.bundle.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/main.c7db6e1ab76ecbf70c25.bundle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
